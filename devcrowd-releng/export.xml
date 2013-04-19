@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="plugin_export" name="build">
+	<target name="plugin_export">
+		<pde.exportPlugins destination="/home/kdaniel/workspace-devcrowd/devcrowd-releng" exportSource="false" exportType="directory" plugins="devcrowd-api,devcrowd-consumer,devcrowd-impl,devcrowd-impl2" useJARFormat="true"/>
+	</target>
+</project>
